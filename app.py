@@ -25,13 +25,6 @@ st.sidebar.markdown("## 🗣️ Audio Language")
 selected_lang_label = st.sidebar.selectbox("Choose TTS Language", list(language_options.keys()))
 lang_code = language_options[selected_lang_label]
 
-# --- Light/Dark Mode Toggle ---
-mode = st.sidebar.radio("🌓 Theme", ["Light", "Dark"])
-if mode == "Dark":
-    st.markdown(
-        "<style>body { background-color: #111; color: #fff; } .stApp { background-color: #1e1e1e; }</style>",
-        unsafe_allow_html=True
-    )
 
 # --- Title ---
 st.markdown("<h1 style='text-align: center;'>📰 News Summarizer & TTS</h1>", unsafe_allow_html=True)
@@ -43,7 +36,7 @@ with st.container():
     st.markdown("### 🔍 Enter Company Name")
     col1, col2 = st.columns([3, 1])
     with col1:
-        company_name = st.text_input("Company", placeholder="e.g., Tesla")
+        company_name = st.text_input("Company", placeholder="e.g., Company Name")
     with col2:
         if company_name:
             domain = company_name.lower().replace(" ", "") + ".com"
