@@ -11,7 +11,6 @@ This project is a **News Summarization and Text-to-Speech (TTS) Application** th
 - **🗣️ Text-to-Speech**: Converts summarized news into audio in **Hindi, English, Bengali, Spanish, and Tamil**.
 - **✨ Interactive UI**: A user-friendly **Streamlit** interface for seamless interaction.
 - **🎵 Audio Controls**: Play, Download, and Clear audio files.
-- **🌗 Light/Dark Mode Toggle** for better UI accessibility.
 - **🧠 Company Logo Fetching** using **Clearbit API**.
 - **📊 Visualizations**: Pie & Bar charts for sentiment analysis using **Plotly**.
 - **📄 JSON Output**: Structured JSON responses for summarized data & translations.
