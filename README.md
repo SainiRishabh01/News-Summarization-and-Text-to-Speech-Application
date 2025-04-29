@@ -34,7 +34,7 @@ This project is a **News Summarization and Text-to-Speech (TTS) Application** th
 
 ### 1️⃣ Clone the repository
 ```bash
-   git clone https://github.com/Ujjwal-sinha/News-Summarization-and-Text-to-Speech-Application.git
+   git clone https://github.com/SainiRishabh01/News-Summarization-and-Text-to-Speech-Application.git
    cd News-Summarization-and-Text-to-Speech-Application
 ```
 
